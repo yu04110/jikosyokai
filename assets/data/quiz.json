@@ -1,29 +1,102 @@
 [
   {
-    "question": "休日の午前中、まず何をしているでしょう？",
+    "question": "今治市がある都道府県はどこか。",
     "options": [
-      { "label": "最新アプリのUIリサーチ", "value": "research" },
-      { "label": "お気に入りの豆を挽いてコーヒーを淹れる", "value": "coffee" },
-      { "label": "マラソンに向けて長距離ラン", "value": "run" }
+      { "label": "A. 香川県", "value": "kagawa" },
+      { "label": "B. 愛媛県", "value": "ehime" },
+      { "label": "C. 広島県", "value": "hiroshima" },
+      { "label": "D. 高知県", "value": "kochi" }
     ],
-    "answer": "coffee"
+    "answer": "ehime"
   },
   {
-    "question": "デザインのインスピレーション源になっているものは？",
+    "question": "今治市と尾道市を結ぶ海の上の道路ネットワークは何か。",
     "options": [
-      { "label": "街角で見つける看板や掲示物", "value": "signs" },
-      { "label": "友人と語り合うボードゲーム", "value": "boardgame" },
-      { "label": "SF映画に出てくる未来都市", "value": "scifi" }
+      { "label": "A. 瀬戸大橋道路", "value": "seto-bridge" },
+      { "label": "B. しまなみ海道", "value": "shimanami" },
+      { "label": "C. 明石海峡大橋道", "value": "akashi" },
+      { "label": "D. 室戸スカイライン", "value": "muroto" }
     ],
-    "answer": "signs"
+    "answer": "shimanami"
   },
   {
-    "question": "noteでよく書いているテーマはどれでしょう？",
+    "question": "今治市が全国有数の生産地として知られる生活用品は何か。",
     "options": [
-      { "label": "最新のガジェットレビュー", "value": "gadget" },
-      { "label": "暮らしの中で見つけた小さな問い", "value": "questions" },
-      { "label": "世界一周の旅行記", "value": "travel" }
+      { "label": "A. 歯ブラシ", "value": "toothbrush" },
+      { "label": "B. タオル", "value": "towel" },
+      { "label": "C. 箸", "value": "chopsticks" },
+      { "label": "D. せっけん", "value": "soap" }
     ],
-    "answer": "questions"
+    "answer": "towel"
+  },
+  {
+    "question": "今治城はどのような種類の城か。",
+    "options": [
+      { "label": "A. 山城", "value": "mountain-castle" },
+      { "label": "B. 平山城", "value": "hirayama-castle" },
+      { "label": "C. 海城", "value": "sea-castle" },
+      { "label": "D. 天守のない城", "value": "no-tenshu" }
+    ],
+    "answer": "sea-castle"
+  },
+  {
+    "question": "今治の焼き鳥文化の特徴として有名なのはどれか。",
+    "options": [
+      { "label": "A. 刺身で提供する", "value": "sashimi" },
+      { "label": "B. 牛肉を使う", "value": "beef" },
+      { "label": "C. 鉄板で焼く", "value": "teppan" },
+      { "label": "D. 皮をカリカリに焼く", "value": "crispy-skin" }
+    ],
+    "answer": "teppan"
+  },
+  {
+    "question": "しまなみ海道にある、サイクリングの名所として知られる島はどれか。",
+    "options": [
+      { "label": "A. 大島", "value": "oshima" },
+      { "label": "B. 淡路島", "value": "awaji" },
+      { "label": "C. 対馬", "value": "tsushima" },
+      { "label": "D. 佐渡島", "value": "sado" }
+    ],
+    "answer": "oshima"
+  },
+  {
+    "question": "今治市のゆるキャラ「バリィさん」が持っているものは何か。",
+    "options": [
+      { "label": "A. 船の模型", "value": "ship-model" },
+      { "label": "B. しゃもじ", "value": "shamoji" },
+      { "label": "C. タオル", "value": "towel" },
+      { "label": "D. たいまつ", "value": "torch" }
+    ],
+    "answer": "shamoji"
+  },
+  {
+    "question": "今治市が位置する海域はどれか。",
+    "options": [
+      { "label": "A. 日本海", "value": "nihonkai" },
+      { "label": "B. 太平洋", "value": "taiheiyo" },
+      { "label": "C. 瀬戸内海", "value": "seto" },
+      { "label": "D. 東シナ海", "value": "east-china-sea" }
+    ],
+    "answer": "seto"
+  },
+  {
+    "question": "今治市にゆかりのある造船業で知られる会社はどれか。",
+    "options": [
+      { "label": "A. 今治造船", "value": "imabari-shipbuilding" },
+      { "label": "B. 三井造船", "value": "mitsui" },
+      { "label": "C. 川崎重工", "value": "kawasaki" },
+      { "label": "D. 三菱重工", "value": "mitsubishi" }
+    ],
+    "answer": "imabari-shipbuilding"
+  },
+  {
+    "question": "今治市の特産品として知られる果物はどれか。",
+    "options": [
+      { "label": "A. りんご", "value": "apple" },
+      { "label": "B. みかん", "value": "mikan" },
+      { "label": "C. ぶどう", "value": "grape" },
+      { "label": "D. メロン", "value": "melon" }
+    ],
+    "answer": "mikan"
   }
 ]
