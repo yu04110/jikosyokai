@@ -1,0 +1,29 @@
+[
+  {
+    "question": "休日の午前中、まず何をしているでしょう？",
+    "options": [
+      { "label": "最新アプリのUIリサーチ", "value": "research" },
+      { "label": "お気に入りの豆を挽いてコーヒーを淹れる", "value": "coffee" },
+      { "label": "マラソンに向けて長距離ラン", "value": "run" }
+    ],
+    "answer": "coffee"
+  },
+  {
+    "question": "デザインのインスピレーション源になっているものは？",
+    "options": [
+      { "label": "街角で見つける看板や掲示物", "value": "signs" },
+      { "label": "友人と語り合うボードゲーム", "value": "boardgame" },
+      { "label": "SF映画に出てくる未来都市", "value": "scifi" }
+    ],
+    "answer": "signs"
+  },
+  {
+    "question": "noteでよく書いているテーマはどれでしょう？",
+    "options": [
+      { "label": "最新のガジェットレビュー", "value": "gadget" },
+      { "label": "暮らしの中で見つけた小さな問い", "value": "questions" },
+      { "label": "世界一周の旅行記", "value": "travel" }
+    ],
+    "answer": "questions"
+  }
+]

@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: jikosyokai-site
+    env: static
+    staticPublishPath: .
+    buildCommand: ""
