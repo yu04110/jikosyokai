@@ -1,0 +1,102 @@
+[
+  {
+    "question": "今治市がある都道府県はどこか。",
+    "options": [
+      { "label": "A. 香川県", "value": "kagawa" },
+      { "label": "B. 愛媛県", "value": "ehime" },
+      { "label": "C. 広島県", "value": "hiroshima" },
+      { "label": "D. 高知県", "value": "kochi" }
+    ],
+    "answer": "ehime"
+  },
+  {
+    "question": "今治市と尾道市を結ぶ海の上の道路ネットワークは何か。",
+    "options": [
+      { "label": "A. 瀬戸大橋道路", "value": "seto" },
+      { "label": "B. しまなみ海道", "value": "shimanami" },
+      { "label": "C. 明石海峡大橋道", "value": "akashi" },
+      { "label": "D. 室戸スカイライン", "value": "muroto" }
+    ],
+    "answer": "shimanami"
+  },
+  {
+    "question": "今治市が全国有数の生産地として知られる生活用品は何か。",
+    "options": [
+      { "label": "A. 歯ブラシ", "value": "toothbrush" },
+      { "label": "B. タオル", "value": "towel" },
+      { "label": "C. 箸", "value": "chopsticks" },
+      { "label": "D. せっけん", "value": "soap" }
+    ],
+    "answer": "towel"
+  },
+  {
+    "question": "今治城はどのような種類の城か。",
+    "options": [
+      { "label": "A. 山城", "value": "mountain" },
+      { "label": "B. 平山城", "value": "hilltop" },
+      { "label": "C. 海城", "value": "seaside" },
+      { "label": "D. 天守のない城", "value": "no_tenshu" }
+    ],
+    "answer": "seaside"
+  },
+  {
+    "question": "今治の焼き鳥文化の特徴として有名なのはどれか。",
+    "options": [
+      { "label": "A. 刺身で提供する", "value": "sashimi" },
+      { "label": "B. 牛肉を使う", "value": "beef" },
+      { "label": "C. 鉄板で焼く", "value": "teppan" },
+      { "label": "D. 皮をカリカリに焼く", "value": "crispy_skin" }
+    ],
+    "answer": "teppan"
+  },
+  {
+    "question": "しまなみ海道にある、サイクリングの名所として知られる島はどれか。",
+    "options": [
+      { "label": "A. 大島", "value": "oshima" },
+      { "label": "B. 淡路島", "value": "awaji" },
+      { "label": "C. 対馬", "value": "tsushima" },
+      { "label": "D. 佐渡島", "value": "sado" }
+    ],
+    "answer": "oshima"
+  },
+  {
+    "question": "今治市のゆるキャラ『バリィさん』が持っているものは何か。",
+    "options": [
+      { "label": "A. 船の模型", "value": "ship" },
+      { "label": "B. しゃもじ", "value": "ricepaddle" },
+      { "label": "C. タオル", "value": "towel" },
+      { "label": "D. たいまつ", "value": "torch" }
+    ],
+    "answer": "ricepaddle"
+  },
+  {
+    "question": "今治市が位置する海域はどれか。",
+    "options": [
+      { "label": "A. 日本海", "value": "japan" },
+      { "label": "B. 太平洋", "value": "pacific" },
+      { "label": "C. 瀬戸内海", "value": "seto_inland" },
+      { "label": "D. 東シナ海", "value": "east_china" }
+    ],
+    "answer": "seto_inland"
+  },
+  {
+    "question": "今治市にゆかりのある造船業で知られる会社はどれか。",
+    "options": [
+      { "label": "A. 今治造船", "value": "imabari" },
+      { "label": "B. 三井造船", "value": "mitsui" },
+      { "label": "C. 川崎重工", "value": "kawasaki" },
+      { "label": "D. 三菱重工", "value": "mitsubishi" }
+    ],
+    "answer": "imabari"
+  },
+  {
+    "question": "今治市の特産品として知られる果物はどれか。",
+    "options": [
+      { "label": "A. りんご", "value": "apple" },
+      { "label": "B. みかん", "value": "mikan" },
+      { "label": "C. ぶどう", "value": "grape" },
+      { "label": "D. メロン", "value": "melon" }
+    ],
+    "answer": "mikan"
+  }
+]
