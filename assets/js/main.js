@@ -102,6 +102,7 @@
     submitButton.disabled = true;
     submitButton.textContent = '解答する';
     feedbackEl.textContent = '';
+    feedbackEl.classList.remove('quiz__feedback--correct', 'quiz__feedback--incorrect');
   }
 
   function checkAnswer(selectedValue) {
@@ -125,8 +126,12 @@
     if (isCorrect) {
       score += 1;
       feedbackEl.textContent = '正解です！';
+      feedbackEl.classList.remove('quiz__feedback--incorrect');
+      feedbackEl.classList.add('quiz__feedback--correct');
     } else {
       feedbackEl.textContent = `正解は「${getAnswerLabel(question)}」でした。`;
+      feedbackEl.classList.remove('quiz__feedback--correct');
+      feedbackEl.classList.add('quiz__feedback--incorrect');
     }
 
     answered = true;
