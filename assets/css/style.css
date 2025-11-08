@@ -338,6 +338,13 @@ img {
   font-size: 1.3rem;
 }
 
+.x-feed {
+  background: var(--color-surface);
+  border-radius: var(--radius-large);
+  box-shadow: var(--shadow-soft);
+  padding: clamp(16px, 4vw, 24px);
+}
+
 .social-links {
   display: flex;
   gap: 16px;
