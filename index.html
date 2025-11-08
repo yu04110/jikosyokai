@@ -1,190 +1,152 @@
 <!DOCTYPE html>
 <html lang="ja">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta
-      name="description"
-      content="wanawanawanabの自己紹介と今治市クイズ、SNSリンクをまとめたページです。"
-    />
-    <title>自己紹介</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="assets/css/style.css" />
-  </head>
-  <body>
-    <header class="page-header">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="wanawanawanabの自己紹介と今治市クイズ、SNSリンクをまとめたページです。" />
+  <title>こんにちは！！！！</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+
+<body>
+  <header class="page-header">
+    <div class="container">
+      <div class="page-header__inner">
+        <h1 class="page-title">自己紹介</h1>
+      </div>
+    </div>
+  </header>
+
+  <main class="main">
+    <section id="introduction" class="section">
       <div class="container">
-        <div class="page-header__inner">
-          <h1 class="page-title">自己紹介</h1>
+        <article class="profile-card">
+          <div class="profile-card__visual" aria-hidden="true">
+            <svg width="320" height="320" viewBox="0 0 320 320" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <rect width="320" height="320" rx="48" fill="#f3e5d8" />
+              <circle cx="160" cy="120" r="72" fill="#ffffff" />
+              <path d="M236 256c0-41.421-34.579-72-76-72s-76 30.579-76 72" fill="#ffffff" />
+              <path d="M196 118c0 20.435-16.118 36-36 36s-36-15.565-36-36" stroke="#8c5e3c" stroke-width="6"
+                stroke-linecap="round" />
+              <circle cx="134" cy="108" r="8" fill="#8c5e3c" />
+              <circle cx="186" cy="108" r="8" fill="#8c5e3c" />
+              <path d="M100 242c16-18 38-30 60-30s44 12 60 30" stroke="#d8c5b6" stroke-width="10"
+                stroke-linecap="round" />
+            </svg>
+          </div>
+          <div class="profile-card__text">
+            <p class="profile-card__bio" style="white-space: pre-line;">はじめまして。
+              副業で個人事業主としてWEB関係の仕事を１つ持ちたいなと思い参加しました。
+              pythonは触ったことがあるのですが、基礎から勉強したいのと、今治現地が近いのが今回の参加の決め手です。
+              好きなことは温泉、洗濯、音楽、バイクです。嫌いなことは旅行です。
+              最近は雅楽にハマっています。
+              休日はだいたい家族サービスしてます。
+              よろしくお願いします！</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="quiz" class="section">
+      <div class="container">
+        <div class="section__header">
+          <h2 class="section__title">今治市クイズ</h2>
+          <p class="section__lead">全10問の4択クイズで今治の知識を試してみましょう。</p>
+        </div>
+        <div class="quiz" data-quiz>
+          <div class="quiz__status">
+            <span data-quiz-progress>読み込み中...</span>
+            <span data-quiz-score></span>
+          </div>
+          <form data-quiz-form>
+            <fieldset>
+              <legend class="quiz__question" data-quiz-question>
+                クイズを読み込んでいます...
+              </legend>
+              <div class="quiz__options" data-quiz-options></div>
+            </fieldset>
+            <button type="submit" class="quiz__submit" data-quiz-submit disabled>
+              解答する
+            </button>
+          </form>
+          <p class="quiz__feedback" aria-live="polite" data-quiz-feedback></p>
+          <div class="quiz__result" data-quiz-result hidden>
+            <h3 class="quiz__result-title">結果</h3>
+            <p data-quiz-result-text></p>
+            <button type="button" class="quiz__submit" data-quiz-restart>
+              もう一度挑戦する
+            </button>
+          </div>
+          <noscript>クイズを利用するにはJavaScriptを有効にしてください。</noscript>
         </div>
       </div>
-    </header>
+    </section>
 
-    <main class="main">
-      <section id="introduction" class="section">
-        <div class="container">
-          <article class="profile-card">
-            <div class="profile-card__visual" aria-hidden="true">
-              <svg
-                width="320"
-                height="320"
-                viewBox="0 0 320 320"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <rect width="320" height="320" rx="48" fill="#f3e5d8" />
-                <circle cx="160" cy="120" r="72" fill="#ffffff" />
-                <path
-                  d="M236 256c0-41.421-34.579-72-76-72s-76 30.579-76 72"
-                  fill="#ffffff"
-                />
-                <path
-                  d="M196 118c0 20.435-16.118 36-36 36s-36-15.565-36-36"
-                  stroke="#8c5e3c"
-                  stroke-width="6"
-                  stroke-linecap="round"
-                />
-                <circle cx="134" cy="108" r="8" fill="#8c5e3c" />
-                <circle cx="186" cy="108" r="8" fill="#8c5e3c" />
-                <path
-                  d="M100 242c16-18 38-30 60-30s44 12 60 30"
-                  stroke="#d8c5b6"
-                  stroke-width="10"
-                  stroke-linecap="round"
-                />
-              </svg>
-            </div>
-            <div class="profile-card__text">
-              <p class="profile-card__bio" style="white-space: pre-line;">はじめまして。
-副業で個人事業主としてWEB関係の仕事を１つ持ちたいなと思い参加しました。
-pythonは触ったことがあるのですが、基礎から勉強したいのと、今治現地が近いのが今回の参加の決め手です。 
-好きなことは温泉、洗濯、音楽、バイクです。嫌いなことは旅行です。
-最近は雅楽にハマっています。
-休日はだいたい家族サービスしてます。
-よろしくお願いします！</p>
-            </div>
-          </article>
-        </div>
-      </section>
-
-      <section id="quiz" class="section">
-        <div class="container">
-          <div class="section__header">
-            <h2 class="section__title">今治市クイズ</h2>
-            <p class="section__lead">全10問の4択クイズで今治の知識を試してみましょう。</p>
-          </div>
-          <div class="quiz" data-quiz>
-            <div class="quiz__status">
-              <span data-quiz-progress>読み込み中...</span>
-              <span data-quiz-score></span>
-            </div>
-            <form data-quiz-form>
-              <fieldset>
-                <legend class="quiz__question" data-quiz-question>
-                  クイズを読み込んでいます...
-                </legend>
-                <div class="quiz__options" data-quiz-options></div>
-              </fieldset>
-              <button type="submit" class="quiz__submit" data-quiz-submit disabled>
-                解答する
-              </button>
-            </form>
-            <p class="quiz__feedback" aria-live="polite" data-quiz-feedback></p>
-            <div class="quiz__result" data-quiz-result hidden>
-              <h3 class="quiz__result-title">結果</h3>
-              <p data-quiz-result-text></p>
-              <button type="button" class="quiz__submit" data-quiz-restart>
-                もう一度挑戦する
-              </button>
-            </div>
-            <noscript>クイズを利用するにはJavaScriptを有効にしてください。</noscript>
-          </div>
-        </div>
-      </section>
-
-      <section id="links" class="section">
-        <div class="container">
-          <div class="section__header">
-            <h2 class="section__title">ほかの場所でもお会いしましょう</h2>
-            <p class="section__lead">
-              日々の気づきや文章、学びのメモはSNSやnoteでゆるやかに更新しています。
-            </p>
-          </div>
-          <div class="social-links">
-            <a
-              class="social-links__item"
-              href="https://x.com/wanawanawanab"
-              target="_blank"
-              rel="noopener noreferrer"
-              aria-label="X（wanawanawanab）へ移動"
-            >
-              <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
-                <path
-                  d="M20.64 3.36h-3.04l-4.2 5.52-3.68-5.52H3.36l6.4 9.28-6.24 8h3.04l4.48-5.76 3.84 5.76h6.24l-6.88-9.92 6.08-7.36z"
-                />
-              </svg>
-              <span class="sr-only">X（外部リンク）</span>
-            </a>
-            <a
-              class="social-links__item"
-              href="https://note.com/sim_dance"
-              target="_blank"
-              rel="noopener noreferrer"
-              aria-label="note（sim_dance）へ移動"
-            >
-              <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
-                <path
-                  d="M5 4a2 2 0 0 0-2 2v12.5A1.5 1.5 0 0 0 4.5 20H18a3 3 0 0 0 3-3V6a2 2 0 0 0-2-2H5zm5 3h8v10a1 1 0 0 1-1 1h-7V7zm-3 3h2v8H7v-8z"
-                />
-              </svg>
-              <span class="sr-only">note（外部リンク）</span>
-            </a>
-          </div>
-        </div>
-      </section>
-
-      <section id="x-feed" class="section">
-        <div class="container">
-          <div class="section__header">
-            <h2 class="section__title">Xの投稿</h2>
-            <p class="section__lead">
-              最近のポストをまとめています。フォローやコメントもお気軽にどうぞ。
-            </p>
-          </div>
-          <div class="x-feed">
-            <a
-              class="twitter-timeline"
-              data-width="100%"
-              data-height="580"
-              data-theme="light"
-              href="https://x.com/wanawanawanab"
-              >Tweets by wanawanawanab</a
-            >
-          </div>
-        </div>
-      </section>
-    </main>
-
-    <footer class="page-footer">
+    <section id="links" class="section">
       <div class="container">
-        <div class="page-footer__inner">
-          <p>© 2024 wanawanawanab</p>
-          <div class="page-footer__links">
-            <a href="#introduction">自己紹介</a>
-            <a href="#quiz">クイズ</a>
-            <a href="#links">リンク</a>
-            <a href="#x-feed">X</a>
-          </div>
+        <div class="section__header">
+          <h2 class="section__title">ほかの場所でもお会いしましょう</h2>
+          <p class="section__lead">
+            日々の気づきや文章、学びのメモはSNSやnoteでゆるやかに更新しています。
+          </p>
+        </div>
+        <div class="social-links">
+          <a class="social-links__item" href="https://x.com/wanawanawanab" target="_blank" rel="noopener noreferrer"
+            aria-label="X（wanawanawanab）へ移動">
+            <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+              <path
+                d="M20.64 3.36h-3.04l-4.2 5.52-3.68-5.52H3.36l6.4 9.28-6.24 8h3.04l4.48-5.76 3.84 5.76h6.24l-6.88-9.92 6.08-7.36z" />
+            </svg>
+            <span class="sr-only">X（外部リンク）</span>
+          </a>
+          <a class="social-links__item" href="https://note.com/sim_dance" target="_blank" rel="noopener noreferrer"
+            aria-label="note（sim_dance）へ移動">
+            <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+              <path
+                d="M5 4a2 2 0 0 0-2 2v12.5A1.5 1.5 0 0 0 4.5 20H18a3 3 0 0 0 3-3V6a2 2 0 0 0-2-2H5zm5 3h8v10a1 1 0 0 1-1 1h-7V7zm-3 3h2v8H7v-8z" />
+            </svg>
+            <span class="sr-only">note（外部リンク）</span>
+          </a>
         </div>
       </div>
-    </footer>
+    </section>
 
-    <script src="assets/js/main.js" defer></script>
-    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-  </body>
+    <section id="x-feed" class="section">
+      <div class="container">
+        <div class="section__header">
+          <h2 class="section__title">Xの投稿</h2>
+          <p class="section__lead">
+            最近のポストをまとめています。フォローやコメントもお気軽にどうぞ。
+          </p>
+        </div>
+        <div class="x-feed">
+          <a class="twitter-timeline" data-width="100%" data-height="580" data-theme="light"
+            href="https://x.com/wanawanawanab">Tweets by wanawanawanab</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="page-footer">
+    <div class="container">
+      <div class="page-footer__inner">
+        <p>© 2024 wanawanawanab</p>
+        <div class="page-footer__links">
+          <a href="#introduction">自己紹介</a>
+          <a href="#quiz">クイズ</a>
+          <a href="#links">リンク</a>
+          <a href="#x-feed">X</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js" defer></script>
+  <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+</body>
+
 </html>
