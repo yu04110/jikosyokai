@@ -1,4 +1,4 @@
-name: Deploy static site (minimal)
+name: Deploy static site (minimal fixed)
 
 on:
   push:
@@ -8,28 +8,36 @@ on:
 jobs:
   deploy:
     runs-on: ubuntu-latest
+
     steps:
-      - name: Checkout
+      - name: Checkout repository
         uses: actions/checkout@v4
 
+      # known_hosts を安全に準備
       - name: Prepare known_hosts
         run: |
+          install -m 700 -d ~/.ssh
           ssh-keyscan -T 5 160.251.206.65 > ~/.ssh/known_hosts
+          chmod 644 ~/.ssh/known_hosts
 
+      # SSH秘密鍵をセット
       - name: Setup SSH key
         run: |
-          install -m 700 -d ~/.ssh
           echo "${{ secrets.SSH_PRIVATE_KEY }}" > ~/.ssh/id_ed25519
           chmod 600 ~/.ssh/id_ed25519
 
-      - name: Rsync to VPS (mirror)
+      # rsyncで同期
+      - name: Deploy via rsync
         run: |
           RSYNC_SSH="ssh -p 22 -o StrictHostKeyChecking=yes"
           rsync -av --delete \
-            --exclude ".git" --exclude ".github" --exclude "render.yaml" \
+            --exclude ".git" \
+            --exclude ".github" \
+            --exclude "render.yaml" \
             -e "$RSYNC_SSH" \
             ./  yusuke@160.251.206.65:~/apps/caddy-static/site/
 
+      # 簡易チェック（HTTPヘッダのみ）
       - name: Smoke test
         run: |
           curl -I --retry 3 --retry-delay 3 https://kyokutoh-design.com
